@@ -125,6 +125,7 @@ _the openage authors_ are:
 | Serhan Tutar                | randomnoise                 | serhantutar à outlook dawt com                    |
 | Georgy Komarov              | jubnzv                      | jubnzv à gmail dawt com                           |
 | Aristotelis Dossas          | teldosas                    | teldosas à gmail dawt com                         |
+| Merlin Stollenwerk          | Mese96                      | merlin-stollenwerk à past-development dawt de     |
 
 If you're a first-time committer, add yourself to the above list. This is not
 just for legal reasons, but also to keep an overview of all those nicknames.

@@ -32,14 +32,20 @@ else:
         "openage {version}{devmode}\n"
         "{config_options}\n"
         "{compiler} [{compilerflags}]\n"
-        "Cython {cython}"
+        "Cython {cython}\n"
+        "nyan-lib {nyan}\n"
+        "SDL {sdl}\n"
+        "qt-version {qt}\n"
     ).format(
         version=config.VERSION,
         devmode=(" [devmode]" if config.DEVMODE else ""),
         config_options=config.CONFIG_OPTIONS,
         compiler=config.COMPILER,
         compilerflags=config.COMPILERFLAGS,
-        cython=config.CYTHONVERSION
+        cython=config.CYTHONVERSION,
+        nyan=config.NYANVERSION,
+        sdl=config.SDLVERSION,
+        qt=config.QTVERSION
     )
 
 setup_logging()
